@@ -45,10 +45,22 @@
     flex-wrap: wrap;
 }
 .shimmer-card{
-     margin: 20 px;
-    /* padding: 20 px; */
-    width: 200 px;
-    height: 400 px;
-    background-color: red;
+     margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
     
+}
+.login-btn{
+    padding: 0px 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+}
+.filter-btn{
+    margin: 10px;
+    height: 20px;
 }
