@@ -18,7 +18,7 @@ Footer
 
 #PREV CODES
 
-// const heading = React.createElement('h1',{id: 'heading'}, "hello from react");
+/* const heading = React.createElement('h1',{id: 'heading'}, "hello from react");
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -30,7 +30,7 @@ Footer
 // [React.createElement('h1',{},"i am a h1 heading"), React.createElement('h2',{},[" i am a h2 heading"," i am a h2 heading"] )]
 // ));
 // const elem = <div>
-//       <span id = "ele"> ele</span>
+//       <span id = "ele">e</span>
 //     </div>;
 // const ParentJsx = () => (<h1 id = "parent" className = "head">{elem}written by jsx</h1>);
 
@@ -40,9 +40,9 @@ Footer
 
 //    return (<div id = "container">
 //         <ParentJsx/>
-//         <h1>i am functional component</h1>
+//         <h1>i</h1>
 //     </div>);
-// }; 
+// }; */
 
 #prev BODY CODE
 
