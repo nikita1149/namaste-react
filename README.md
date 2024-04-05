@@ -30,14 +30,10 @@ Footer
 // [React.createElement('h1',{},"i am a h1 heading"), React.createElement('h2',{},[" i am a h2 heading"," i am a h2 heading"] )]
 // ));
 // const elem = <div>
-//       <span id = "ele">e</span>
-//     </div>;
+// <span id = "ele">e</span>
+//  </div>;
 // const ParentJsx = () => (<h1 id = "parent" className = "head">{elem}written by jsx</h1>);
-
-
 // const HeadingComponent = () =>{
-    
-
 //    return (<div id = "container">
 //         <ParentJsx/>
 //         <h1>i</h1>
