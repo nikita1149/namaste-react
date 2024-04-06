@@ -14,7 +14,7 @@ const Body = ()=>{
 
     const fetchData = async () => {
         const data = await fetch(
-            "https://www.swiggy.com/dapi/restaurants/list/v5?lat=29.17286002404871&lng=75.72874367237092&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+            "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.379716503337345&lng=77.31885340064764&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
         const json = await data.json();
 
@@ -24,7 +24,6 @@ const Body = ()=>{
 
     if(listOfRes.length === 0){
         return <Shimmer/>;
-       
     }
     return(
         <div className="body">
@@ -37,8 +36,8 @@ const Body = ()=>{
                 }}>Search</button>
                 </div>
                 <button className="filter-btn"  onClick={()=>{
-                    const filteredRes = listOfRes.filter((res)=>res.info.avgRating>4.2);
-                    setListOfRes(filteredRes);
+                    const filteredRes = listOfRes.filter((res)=>res.info.avgRating>4);
+                    setFilteredRestaur(filteredRes);
                 }}
                 >
                     TOP RATED RESTAURANTS
@@ -46,7 +45,7 @@ const Body = ()=>{
             </div>
             <div className="res-container">
                {
-                filteredRestaur.map((restaur)=> (<RestaurantCard key = {restaur.info.id} resData = {restaur}/>))
+                filteredRestaur.map((restaur)=> (<RestaurantCard key = {restaur?.info?.id} resData = {restaur}/>))
                }
             </div>
         </div>
