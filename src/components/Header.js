@@ -8,7 +8,7 @@ const Header=()=>{
     return(
     <div className = "header">
         <div className = "logo-container">
-            <img className="logo" src = {LOGO_URL} />
+            <img className="logo" src = "/logo-image.jpeg"/>
         </div>
         <div className="nav-items">
             <ul>
