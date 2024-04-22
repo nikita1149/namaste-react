@@ -1,7 +1,10 @@
+import User from "./User";
+
 const About = ()=> {
     return(
-    <div>
-        <h1>heyyy</h1>
+    <div >
+        <h1>About Us</h1>
+        <User name = "Nikita"/>
     </div>
     );
 };
